@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.header-container {
+    background-color: #020233;
+    color: white;
+}
+
+.header-container1 {
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    
+}
+.logo {
+    color: aqua;
+    flex-basis: 20%;
+}
+
+.links {
+    flex-basis: auto;
+}
+
+.header-container2 {
+    display: flex;
+}
