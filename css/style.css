@@ -86,11 +86,10 @@
 }
 
 .section1-container {
-    background-color: aquamarine;
+    
     display: flex;
     flex-direction: column;
-    
-
+    padding: 50px;
 }
 .section1-title {
     font-size: 36px;
@@ -101,7 +100,76 @@
 }
 
 .section1-content{
-    display: flex;
-    justify-content: center;
     
+    display: inline-flex;
+    text-align: center;
+    gap: 30px;
+    justify-content: center;
+
+    
+}
+
+.block1 {
+    max-width: 200px;
+    
+    
+}
+
+
+.block--picture1 {
+    width: 200px;
+    height: 200px;
+    background-image: url('/img/1_8igvlMBBw3702wKOQo5BwQ.png');
+    background-size: 100% 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.block--picture2{
+    width: 200px;
+    height: 200px;
+    background-image: url('/img/CSS3_logo_and_wordmark.svg.png');
+    background-size: 100% 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;   
+}
+
+.block--picture3 {
+    width: 200px;
+    height: 200px;
+    background-image: url('/img/1200px-Javascript-shield.svg.png');
+    background-size: 100% 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.block--picture4 {
+    width: 200px;
+    height: 200px;
+    background-image: url('/img/Angular_full_color_logo.svg.png');
+    background-size: 100% 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.section2-container {
+    background-color: #E5E7EB;
+    padding: 100px;
+    
+}
+
+.quote {
+    font-style: italic;
+    font: #1f2937;
+    text-align: center;
+    font-size: 36px;
+}
+
+.author {
+    font-weight: bold;
+    text-align:center;
+    font-size: 30px;
 }
